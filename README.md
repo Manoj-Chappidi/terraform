@@ -5,7 +5,7 @@ This repository contains Terraform configuration files to set up an AWS infrastr
 ## Components
 
 1. **VPC**
-    - Name: \`ionginx-vpc\`
+    - Name: \`mynginx-vpc\`
     - Public Subnets: 3
     - Private Subnets: 3
     - Internet Gateway: 1
