@@ -28,29 +28,28 @@ This repository contains Terraform configuration files to set up an AWS infrastr
 To deploy this infrastructure, follow these steps:
 
 1. **Initialize Terraform**:
-    \`\`\`sh
+    
     terraform init
-    \`\`\`
+    
 
 2. **Validate the Terraform configuration**:
-    \`\`\`sh
+   
     terraform validate
-    \`\`\`
+    
 
 3. **Create an execution plan**:
-    \`\`\`sh
+   
     terraform plan
-    \`\`\`
+    
 
 4. **Apply the execution plan**:
-    \`\`\`sh
+   
     terraform apply
-    \`\`\`
+    
 
 5. **Destroy the infrastructure (if needed)**:
-    \`\`\`sh
+
     terraform destroy
-    \`\`\`
 
 ## Main Aim
 
@@ -58,6 +57,6 @@ The main aim of this project is to automate the provisioning of AWS infrastructu
 
 ## Notes
 
-- Ensure that you have the necessary AWS credentials configured before running the Terraform commands.
-- Adjust the AWS region and other configurations as needed to match your specific requirements.
+- Ensure to have the necessary AWS credentials configured before running the Terraform commands.
+- Adjust the AWS region and other configurations as needed to match specific requirements.
 
